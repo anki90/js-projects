@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        margin: 100px;
+        padding: 15px;
+        color: rgb(232, 220, 208);
+        align-items: center;
+        display: inline;
+        background-color: rgb(146, 21, 204);
+        border: brown 2px solid;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="button()">dark mode</button>
+    <button onclick="whiteMode()">white mode</button>
+    <script>
+      function button() {
+        document.body.style.backgroundColor = "black";
+      }
+      function whiteMode() {
+        document.body.style.backgroundColor = "white";
+      }
+    </script>
+  </body>
+</html>
